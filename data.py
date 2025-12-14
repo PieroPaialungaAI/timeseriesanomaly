@@ -4,16 +4,13 @@ import numpy as np
 from typing import Dict, List
 from data_utils import *
 from constants import *
-from plot_utils import plot_single_ts, plot_multiple_ts, plot_by_anomaly_type
-
+from plot_utils import *
 
 
 class DataGenerator:
         
     def __init__(self, config_path: str = DEFAULT_CONFIG_PATH):
         self.config = load_config(config_path)
-        
-        # Extract data generation params
         data_cfg = self.config["data_generation"]
         self.set_config(data_cfg)
         self.metadata: List[Dict] = []
@@ -28,26 +25,19 @@ class DataGenerator:
 
 
     def generate_data(self) -> np.ndarray:
-        # Assign anomaly types to each series
         assignments = assign_anomaly_types(
             self.num_series, 
             self.config["assignment"]["max_anomalies_per_series"]
         )
-        
         for i in range(self.num_series):
-            # Generate base signal
             signal = generate_base_signal(self.x, self.noise_level, self.config["base_signal"])
-            series_metadata = {"series_idx": i, "anomalies": []}
-            
-            # Apply assigned anomalies
+            series_metadata = {"series_idx": i, "anomalies": []}   
             for anomaly_type in assignments[i]:
                 anomaly_fn = ANOMALY_FUNCTIONS[anomaly_type]
                 signal, anomaly_metadata = anomaly_fn(signal, self.x, self.config[anomaly_type])
                 series_metadata["anomalies"].append(anomaly_metadata)
-            
             self.y[i] = signal
-            self.metadata.append(series_metadata)
-        
+            self.metadata.append(series_metadata)        
         return self.y
     
 

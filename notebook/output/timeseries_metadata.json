@@ -3,8 +3,8 @@
     "series_idx": 0,
     "anomalies": [
       {
-        "type": "trend",
-        "slope": 0.0020116570794119423
+        "type": "volatility",
+        "multiplier": 4.507559946338727
       }
     ]
   },
@@ -12,8 +12,8 @@
     "series_idx": 1,
     "anomalies": [
       {
-        "type": "level_shift",
-        "magnitude": 13.296215144973434
+        "type": "volatility",
+        "multiplier": 4.392942030469388
       }
     ]
   },
@@ -21,9 +21,8 @@
     "series_idx": 2,
     "anomalies": [
       {
-        "type": "point_anomaly",
-        "anomaly_idx": 761,
-        "magnitude": -5.727251622189905
+        "type": "volatility",
+        "multiplier": 4.222497912430454
       }
     ]
   },
@@ -31,8 +30,8 @@
     "series_idx": 3,
     "anomalies": [
       {
-        "type": "trend",
-        "slope": -0.04274622118092051
+        "type": "volatility",
+        "multiplier": 3.583702374526275
       }
     ]
   },
@@ -40,8 +39,8 @@
     "series_idx": 4,
     "anomalies": [
       {
-        "type": "volatility",
-        "multiplier": 5.614471886106766
+        "type": "trend",
+        "slope": -0.04197362191622637
       }
     ]
   },
@@ -49,8 +48,8 @@
     "series_idx": 5,
     "anomalies": [
       {
-        "type": "volatility",
-        "multiplier": 4.423624355442575
+        "type": "trend",
+        "slope": -0.007290159469804713
       }
     ]
   },
@@ -58,8 +57,8 @@
     "series_idx": 6,
     "anomalies": [
       {
-        "type": "trend",
-        "slope": 0.03307570777037659
+        "type": "level_shift",
+        "magnitude": -19.22433541030329
       }
     ]
   },
@@ -67,8 +66,8 @@
     "series_idx": 7,
     "anomalies": [
       {
-        "type": "trend",
-        "slope": -0.01814330474592144
+        "type": "volatility",
+        "multiplier": 4.084443351658798
       }
     ]
   },
@@ -76,8 +75,8 @@
     "series_idx": 8,
     "anomalies": [
       {
-        "type": "trend",
-        "slope": 0.03371979394009182
+        "type": "volatility",
+        "multiplier": 5.319387013857875
       }
     ]
   },
@@ -85,9 +84,8 @@
     "series_idx": 9,
     "anomalies": [
       {
-        "type": "point_anomaly",
-        "anomaly_idx": 356,
-        "magnitude": 3.54460805685866
+        "type": "trend",
+        "slope": 0.015572092374655677
       }
     ]
   },
@@ -96,7 +94,7 @@
     "anomalies": [
       {
         "type": "level_shift",
-        "magnitude": -9.783421809737753
+        "magnitude": 19.71820209979155
       }
     ]
   },
@@ -105,7 +103,11 @@
     "anomalies": [
       {
         "type": "level_shift",
-        "magnitude": -39.16917489176461
+        "magnitude": 12.066739234646688
+      },
+      {
+        "type": "trend",
+        "slope": 0.04016035903039379
       }
     ]
   },
@@ -113,9 +115,8 @@
     "series_idx": 12,
     "anomalies": [
       {
-        "type": "point_anomaly",
-        "anomaly_idx": 163,
-        "magnitude": -9.707725715226355
+        "type": "level_shift",
+        "magnitude": 33.50672680781269
       }
     ]
   },
@@ -123,9 +124,8 @@
     "series_idx": 13,
     "anomalies": [
       {
-        "type": "point_anomaly",
-        "anomaly_idx": 516,
-        "magnitude": 7.344590588621998
+        "type": "volatility",
+        "multiplier": 4.653714430633772
       }
     ]
   },
@@ -133,9 +133,8 @@
     "series_idx": 14,
     "anomalies": [
       {
-        "type": "point_anomaly",
-        "anomaly_idx": 549,
-        "magnitude": 5.694833313666146
+        "type": "volatility",
+        "multiplier": 4.869405292683817
       }
     ]
   },
@@ -143,8 +142,8 @@
     "series_idx": 15,
     "anomalies": [
       {
-        "type": "trend",
-        "slope": 0.005424407634448805
+        "type": "volatility",
+        "multiplier": 5.871865613545369
       }
     ]
   },
@@ -152,8 +151,9 @@
     "series_idx": 16,
     "anomalies": [
       {
-        "type": "level_shift",
-        "magnitude": 19.058714049006504
+        "type": "point_anomaly",
+        "anomaly_idx": 500,
+        "magnitude": -3.5202727350782634
       }
     ]
   },
@@ -161,8 +161,9 @@
     "series_idx": 17,
     "anomalies": [
       {
-        "type": "trend",
-        "slope": -0.019104600327777357
+        "type": "point_anomaly",
+        "anomaly_idx": 496,
+        "magnitude": -5.254410017856794
       }
     ]
   },
@@ -171,7 +172,11 @@
     "anomalies": [
       {
         "type": "level_shift",
-        "magnitude": -8.037288873957987
+        "magnitude": -21.403797975705118
+      },
+      {
+        "type": "trend",
+        "slope": -0.009137682484058787
       }
     ]
   },
@@ -179,8 +184,9 @@
     "series_idx": 19,
     "anomalies": [
       {
-        "type": "level_shift",
-        "magnitude": 15.266324293547429
+        "type": "point_anomaly",
+        "anomaly_idx": 699,
+        "magnitude": -4.272160032108429
       }
     ]
   },
@@ -189,8 +195,8 @@
     "anomalies": [
       {
         "type": "point_anomaly",
-        "anomaly_idx": 192,
-        "magnitude": -6.509964560792272
+        "anomaly_idx": 391,
+        "magnitude": 8.377746623804299
       }
     ]
   },
@@ -199,7 +205,7 @@
     "anomalies": [
       {
         "type": "volatility",
-        "multiplier": 3.530713222170866
+        "multiplier": 5.2420159028219455
       }
     ]
   },
@@ -208,7 +214,7 @@
     "anomalies": [
       {
         "type": "trend",
-        "slope": -0.041891971912882936
+        "slope": 0.0014858842546414466
       }
     ]
   },
@@ -216,8 +222,9 @@
     "series_idx": 23,
     "anomalies": [
       {
-        "type": "trend",
-        "slope": -0.0064290170976739405
+        "type": "point_anomaly",
+        "anomaly_idx": 804,
+        "magnitude": 4.6764374922279615
       }
     ]
   },
@@ -226,11 +233,7 @@
     "anomalies": [
       {
         "type": "level_shift",
-        "magnitude": 45.540113269820694
-      },
-      {
-        "type": "trend",
-        "slope": 0.0387708229863067
+        "magnitude": 10.420855783252719
       }
     ]
   },
@@ -239,7 +242,7 @@
     "anomalies": [
       {
         "type": "trend",
-        "slope": -0.001175503647355261
+        "slope": -0.006135177105890101
       }
     ]
   },
@@ -247,9 +250,8 @@
     "series_idx": 26,
     "anomalies": [
       {
-        "type": "point_anomaly",
-        "anomaly_idx": 650,
-        "magnitude": -5.77685706032025
+        "type": "level_shift",
+        "magnitude": -17.492344465209925
       }
     ]
   },
@@ -257,9 +259,8 @@
     "series_idx": 27,
     "anomalies": [
       {
-        "type": "point_anomaly",
-        "anomaly_idx": 761,
-        "magnitude": -7.175794548602492
+        "type": "volatility",
+        "multiplier": 4.18801360957787
       }
     ]
   },
@@ -267,12 +268,8 @@
     "series_idx": 28,
     "anomalies": [
       {
-        "type": "level_shift",
-        "magnitude": -37.49656559620587
-      },
-      {
         "type": "volatility",
-        "multiplier": 4.318185614262365
+        "multiplier": 5.435268319861752
       }
     ]
   },
@@ -281,11 +278,7 @@
     "anomalies": [
       {
         "type": "level_shift",
-        "magnitude": -41.33345241982379
-      },
-      {
-        "type": "volatility",
-        "multiplier": 3.498849097885942
+        "magnitude": -36.72655408636294
       }
     ]
   },
@@ -294,8 +287,8 @@
     "anomalies": [
       {
         "type": "point_anomaly",
-        "anomaly_idx": 419,
-        "magnitude": -3.4048474037399363
+        "anomaly_idx": 307,
+        "magnitude": -3.8301899275714426
       }
     ]
   },
@@ -303,8 +296,9 @@
     "series_idx": 31,
     "anomalies": [
       {
-        "type": "level_shift",
-        "magnitude": -20.31330194022129
+        "type": "point_anomaly",
+        "anomaly_idx": 325,
+        "magnitude": -6.178306861578567
       }
     ]
   },
@@ -312,8 +306,8 @@
     "series_idx": 32,
     "anomalies": [
       {
-        "type": "volatility",
-        "multiplier": 3.5843636205543232
+        "type": "trend",
+        "slope": -0.029175387591964974
       }
     ]
   },
@@ -321,9 +315,8 @@
     "series_idx": 33,
     "anomalies": [
       {
-        "type": "point_anomaly",
-        "anomaly_idx": 565,
-        "magnitude": 3.6571557786639834
+        "type": "trend",
+        "slope": -0.046822979897092915
       }
     ]
   },
@@ -331,9 +324,8 @@
     "series_idx": 34,
     "anomalies": [
       {
-        "type": "point_anomaly",
-        "anomaly_idx": 445,
-        "magnitude": 4.780361979936705
+        "type": "level_shift",
+        "magnitude": 12.655482664484746
       }
     ]
   },
@@ -342,8 +334,8 @@
     "anomalies": [
       {
         "type": "point_anomaly",
-        "anomaly_idx": 461,
-        "magnitude": -5.8672991298780435
+        "anomaly_idx": 500,
+        "magnitude": 5.096315534484629
       }
     ]
   },
@@ -352,7 +344,7 @@
     "anomalies": [
       {
         "type": "level_shift",
-        "magnitude": -15.016850001384304
+        "magnitude": -15.338540642732516
       }
     ]
   },
@@ -361,7 +353,7 @@
     "anomalies": [
       {
         "type": "level_shift",
-        "magnitude": -17.20120588416775
+        "magnitude": 12.574805155703968
       }
     ]
   },
@@ -369,9 +361,8 @@
     "series_idx": 38,
     "anomalies": [
       {
-        "type": "point_anomaly",
-        "anomaly_idx": 342,
-        "magnitude": -2.1872699861609597
+        "type": "trend",
+        "slope": -0.04975175368914645
       }
     ]
   },
@@ -380,12 +371,8 @@
     "anomalies": [
       {
         "type": "point_anomaly",
-        "anomaly_idx": 447,
-        "magnitude": -6.450727474973507
-      },
-      {
-        "type": "volatility",
-        "multiplier": 4.188662252458766
+        "anomaly_idx": 517,
+        "magnitude": 4.424604729609734
       }
     ]
   },
@@ -394,7 +381,12 @@
     "anomalies": [
       {
         "type": "level_shift",
-        "magnitude": 10.446358419208403
+        "magnitude": 38.45928644910206
+      },
+      {
+        "type": "point_anomaly",
+        "anomaly_idx": 480,
+        "magnitude": -4.7922168966567895
       }
     ]
   },
@@ -402,8 +394,13 @@
     "series_idx": 41,
     "anomalies": [
       {
-        "type": "volatility",
-        "multiplier": 3.0924551759146155
+        "type": "level_shift",
+        "magnitude": -29.002310333129703
+      },
+      {
+        "type": "point_anomaly",
+        "anomaly_idx": 640,
+        "magnitude": -5.939314148279793
       }
     ]
   },
@@ -412,7 +409,7 @@
     "anomalies": [
       {
         "type": "trend",
-        "slope": 0.0138128838054727
+        "slope": 0.011967422348385479
       }
     ]
   },
@@ -420,8 +417,8 @@
     "series_idx": 43,
     "anomalies": [
       {
-        "type": "level_shift",
-        "magnitude": 28.67438670664547
+        "type": "volatility",
+        "multiplier": 3.3802050146594054
       }
     ]
   },
@@ -429,8 +426,8 @@
     "series_idx": 44,
     "anomalies": [
       {
-        "type": "trend",
-        "slope": 0.02548736149128171
+        "type": "level_shift",
+        "magnitude": 36.85702471075998
       }
     ]
   },
@@ -438,8 +435,8 @@
     "series_idx": 45,
     "anomalies": [
       {
-        "type": "level_shift",
-        "magnitude": -14.13161666158931
+        "type": "trend",
+        "slope": -0.04642701440953202
       }
     ]
   },
@@ -447,8 +444,8 @@
     "series_idx": 46,
     "anomalies": [
       {
-        "type": "trend",
-        "slope": 0.009039899176587582
+        "type": "level_shift",
+        "magnitude": 39.40074517114628
       }
     ]
   },
@@ -457,7 +454,7 @@
     "anomalies": [
       {
         "type": "level_shift",
-        "magnitude": -23.319244685854642
+        "magnitude": -31.937029332400254
       }
     ]
   },
@@ -465,8 +462,12 @@
     "series_idx": 48,
     "anomalies": [
       {
-        "type": "volatility",
-        "multiplier": 5.301423185798566
+        "type": "level_shift",
+        "magnitude": 8.85742162445703
+      },
+      {
+        "type": "trend",
+        "slope": -0.01665777601954576
       }
     ]
   },
@@ -474,8 +475,8 @@
     "series_idx": 49,
     "anomalies": [
       {
-        "type": "level_shift",
-        "magnitude": -15.742913975520977
+        "type": "trend",
+        "slope": -0.019620598660645385
       }
     ]
   },
@@ -483,8 +484,8 @@
     "series_idx": 50,
     "anomalies": [
       {
-        "type": "trend",
-        "slope": 0.018719349918286304
+        "type": "level_shift",
+        "magnitude": 22.420986661600615
       }
     ]
   },
@@ -492,8 +493,13 @@
     "series_idx": 51,
     "anomalies": [
       {
-        "type": "level_shift",
-        "magnitude": 14.135862808363772
+        "type": "volatility",
+        "multiplier": 4.217200442014077
+      },
+      {
+        "type": "point_anomaly",
+        "anomaly_idx": 327,
+        "magnitude": -6.693627504496358
       }
     ]
   },
@@ -501,9 +507,8 @@
     "series_idx": 52,
     "anomalies": [
       {
-        "type": "point_anomaly",
-        "anomaly_idx": 405,
-        "magnitude": 5.744352104039503
+        "type": "volatility",
+        "multiplier": 4.513380410185029
       }
     ]
   },
@@ -512,7 +517,7 @@
     "anomalies": [
       {
         "type": "volatility",
-        "multiplier": 3.0073510094898306
+        "multiplier": 5.217038088419399
       }
     ]
   },
@@ -521,8 +526,8 @@
     "anomalies": [
       {
         "type": "point_anomaly",
-        "anomaly_idx": 581,
-        "magnitude": 6.860920683799068
+        "anomaly_idx": 480,
+        "magnitude": 5.956615338594279
       }
     ]
   },
@@ -530,8 +535,8 @@
     "series_idx": 55,
     "anomalies": [
       {
-        "type": "trend",
-        "slope": 0.00018128982281391537
+        "type": "level_shift",
+        "magnitude": -26.611296917456965
       }
     ]
   },
@@ -539,9 +544,8 @@
     "series_idx": 56,
     "anomalies": [
       {
-        "type": "point_anomaly",
-        "anomaly_idx": 563,
-        "magnitude": 8.939151538680917
+        "type": "level_shift",
+        "magnitude": -29.179954802864813
       }
     ]
   },
@@ -549,8 +553,8 @@
     "series_idx": 57,
     "anomalies": [
       {
-        "type": "volatility",
-        "multiplier": 5.2153520619494556
+        "type": "level_shift",
+        "magnitude": -18.142502417945092
       }
     ]
   },
@@ -558,8 +562,8 @@
     "series_idx": 58,
     "anomalies": [
       {
-        "type": "trend",
-        "slope": -0.03378661722339757
+        "type": "level_shift",
+        "magnitude": -13.059353524344704
       }
     ]
   },
@@ -568,7 +572,7 @@
     "anomalies": [
       {
         "type": "level_shift",
-        "magnitude": -25.604379306724148
+        "magnitude": -39.59524183224337
       }
     ]
   },
@@ -577,8 +581,12 @@
     "anomalies": [
       {
         "type": "point_anomaly",
-        "anomaly_idx": 583,
-        "magnitude": -5.861798506454487
+        "anomaly_idx": 127,
+        "magnitude": 4.532511392014274
+      },
+      {
+        "type": "trend",
+        "slope": 0.025487618972694942
       }
     ]
   },
@@ -586,13 +594,8 @@
     "series_idx": 61,
     "anomalies": [
       {
-        "type": "point_anomaly",
-        "anomaly_idx": 474,
-        "magnitude": 7.85994567112593
-      },
-      {
-        "type": "volatility",
-        "multiplier": 4.506284407346433
+        "type": "level_shift",
+        "magnitude": -12.764983290496966
       }
     ]
   },
@@ -601,7 +604,7 @@
     "anomalies": [
       {
         "type": "volatility",
-        "multiplier": 3.9324362217462396
+        "multiplier": 4.075582026002472
       }
     ]
   },
@@ -609,9 +612,8 @@
     "series_idx": 63,
     "anomalies": [
       {
-        "type": "point_anomaly",
-        "anomaly_idx": 457,
-        "magnitude": -7.192342211939711
+        "type": "volatility",
+        "multiplier": 5.909611466575992
       }
     ]
   },
@@ -619,9 +621,13 @@
     "series_idx": 64,
     "anomalies": [
       {
+        "type": "trend",
+        "slope": 0.03592076766384025
+      },
+      {
         "type": "point_anomaly",
-        "anomaly_idx": 812,
-        "magnitude": 5.209449783814082
+        "anomaly_idx": 393,
+        "magnitude": 68.86574829013338
       }
     ]
   },
@@ -629,8 +635,13 @@
     "series_idx": 65,
     "anomalies": [
       {
+        "type": "point_anomaly",
+        "anomaly_idx": 647,
+        "magnitude": 3.2980235524994734
+      },
+      {
         "type": "trend",
-        "slope": 0.012106482399056005
+        "slope": 0.013804975262603741
       }
     ]
   },
@@ -638,8 +649,8 @@
     "series_idx": 66,
     "anomalies": [
       {
-        "type": "volatility",
-        "multiplier": 4.627285900239628
+        "type": "trend",
+        "slope": -0.018047778898026626
       }
     ]
   },
@@ -648,12 +659,8 @@
     "anomalies": [
       {
         "type": "point_anomaly",
-        "anomaly_idx": 183,
-        "magnitude": -5.701037460745318
-      },
-      {
-        "type": "volatility",
-        "multiplier": 5.107309918963303
+        "anomaly_idx": 681,
+        "magnitude": 5.803664067490128
       }
     ]
   },
@@ -661,8 +668,13 @@
     "series_idx": 68,
     "anomalies": [
       {
-        "type": "volatility",
-        "multiplier": 5.366454641736567
+        "type": "point_anomaly",
+        "anomaly_idx": 534,
+        "magnitude": 6.354532357741694
+      },
+      {
+        "type": "trend",
+        "slope": 0.010076431402307393
       }
     ]
   },
@@ -670,8 +682,8 @@
     "series_idx": 69,
     "anomalies": [
       {
-        "type": "level_shift",
-        "magnitude": -15.38813115258327
+        "type": "volatility",
+        "multiplier": 4.359266374809074
       }
     ]
   },
@@ -679,9 +691,8 @@
     "series_idx": 70,
     "anomalies": [
       {
-        "type": "point_anomaly",
-        "anomaly_idx": 215,
-        "magnitude": -3.238989416707448
+        "type": "level_shift",
+        "magnitude": 12.904123241452156
       }
     ]
   },
@@ -690,7 +701,7 @@
     "anomalies": [
       {
         "type": "volatility",
-        "multiplier": 5.064524358031755
+        "multiplier": 3.5965388773755933
       }
     ]
   },
@@ -698,9 +709,8 @@
     "series_idx": 72,
     "anomalies": [
       {
-        "type": "point_anomaly",
-        "anomaly_idx": 508,
-        "magnitude": 2.2867010720413696
+        "type": "level_shift",
+        "magnitude": 16.251015539324758
       }
     ]
   },
@@ -708,9 +718,8 @@
     "series_idx": 73,
     "anomalies": [
       {
-        "type": "point_anomaly",
-        "anomaly_idx": 837,
-        "magnitude": 3.3071860799464394
+        "type": "level_shift",
+        "magnitude": 26.489280453909625
       }
     ]
   },
@@ -719,8 +728,8 @@
     "anomalies": [
       {
         "type": "point_anomaly",
-        "anomaly_idx": 443,
-        "magnitude": -4.444468457580153
+        "anomaly_idx": 897,
+        "magnitude": 4.758275298311507
       }
     ]
   },
@@ -728,9 +737,8 @@
     "series_idx": 75,
     "anomalies": [
       {
-        "type": "point_anomaly",
-        "anomaly_idx": 876,
-        "magnitude": -7.181550372677405
+        "type": "trend",
+        "slope": 0.03479675192439974
       }
     ]
   },
@@ -738,8 +746,9 @@
     "series_idx": 76,
     "anomalies": [
       {
-        "type": "trend",
-        "slope": 0.0429343232895677
+        "type": "point_anomaly",
+        "anomaly_idx": 692,
+        "magnitude": 5.1628024826246515
       }
     ]
   },
@@ -747,8 +756,12 @@
     "series_idx": 77,
     "anomalies": [
       {
-        "type": "level_shift",
-        "magnitude": -17.803489450619885
+        "type": "volatility",
+        "multiplier": 5.5098606590755015
+      },
+      {
+        "type": "trend",
+        "slope": -0.03966756340519728
       }
     ]
   },
@@ -757,7 +770,12 @@
     "anomalies": [
       {
         "type": "volatility",
-        "multiplier": 4.139657992736722
+        "multiplier": 3.865700988751253
+      },
+      {
+        "type": "point_anomaly",
+        "anomaly_idx": 164,
+        "magnitude": 5.197388719855802
       }
     ]
   },
@@ -765,8 +783,8 @@
     "series_idx": 79,
     "anomalies": [
       {
-        "type": "level_shift",
-        "magnitude": -16.342235270984812
+        "type": "volatility",
+        "multiplier": 4.867706246234756
       }
     ]
   },
@@ -774,12 +792,8 @@
     "series_idx": 80,
     "anomalies": [
       {
-        "type": "level_shift",
-        "magnitude": 41.5149463634599
-      },
-      {
         "type": "trend",
-        "slope": 0.030931533131511507
+        "slope": -0.004909272335761258
       }
     ]
   },
@@ -787,8 +801,9 @@
     "series_idx": 81,
     "anomalies": [
       {
-        "type": "trend",
-        "slope": -0.04466705711774495
+        "type": "point_anomaly",
+        "anomaly_idx": 249,
+        "magnitude": -2.0932410728334734
       }
     ]
   },
@@ -797,7 +812,7 @@
     "anomalies": [
       {
         "type": "volatility",
-        "multiplier": 3.2318771203031527
+        "multiplier": 3.989843095238877
       }
     ]
   },
@@ -805,8 +820,8 @@
     "series_idx": 83,
     "anomalies": [
       {
-        "type": "volatility",
-        "multiplier": 4.234569830472639
+        "type": "level_shift",
+        "magnitude": 30.042894959401636
       }
     ]
   },
@@ -814,13 +829,8 @@
     "series_idx": 84,
     "anomalies": [
       {
-        "type": "point_anomaly",
-        "anomaly_idx": 850,
-        "magnitude": -6.3859129996672515
-      },
-      {
-        "type": "trend",
-        "slope": -0.024066196882227043
+        "type": "level_shift",
+        "magnitude": -21.71940611644537
       }
     ]
   },
@@ -828,8 +838,8 @@
     "series_idx": 85,
     "anomalies": [
       {
-        "type": "volatility",
-        "multiplier": 5.310767132528211
+        "type": "trend",
+        "slope": 0.028509584419796938
       }
     ]
   },
@@ -837,9 +847,8 @@
     "series_idx": 86,
     "anomalies": [
       {
-        "type": "point_anomaly",
-        "anomaly_idx": 788,
-        "magnitude": 4.252028134331909
+        "type": "volatility",
+        "multiplier": 5.159437205640302
       }
     ]
   },
@@ -847,9 +856,8 @@
     "series_idx": 87,
     "anomalies": [
       {
-        "type": "point_anomaly",
-        "anomaly_idx": 205,
-        "magnitude": 7.498652258215737
+        "type": "volatility",
+        "multiplier": 5.906934563691022
       }
     ]
   },
@@ -857,8 +865,8 @@
     "series_idx": 88,
     "anomalies": [
       {
-        "type": "volatility",
-        "multiplier": 4.396204810229241
+        "type": "level_shift",
+        "magnitude": -29.25634858101061
       }
     ]
   },
@@ -866,8 +874,9 @@
     "series_idx": 89,
     "anomalies": [
       {
-        "type": "level_shift",
-        "magnitude": 16.353536261490536
+        "type": "point_anomaly",
+        "anomaly_idx": 768,
+        "magnitude": -4.710598311401463
       }
     ]
   },
@@ -876,8 +885,8 @@
     "anomalies": [
       {
         "type": "point_anomaly",
-        "anomaly_idx": 276,
-        "magnitude": 5.2628022769933205
+        "anomaly_idx": 808,
+        "magnitude": 7.349262894186388
       }
     ]
   },
@@ -886,7 +895,7 @@
     "anomalies": [
       {
         "type": "volatility",
-        "multiplier": 5.490204434013529
+        "multiplier": 4.329717496083572
       }
     ]
   },
@@ -894,9 +903,8 @@
     "series_idx": 92,
     "anomalies": [
       {
-        "type": "point_anomaly",
-        "anomaly_idx": 340,
-        "magnitude": 4.3778700002893185
+        "type": "level_shift",
+        "magnitude": 32.38146031837154
       }
     ]
   },
@@ -904,8 +912,8 @@
     "series_idx": 93,
     "anomalies": [
       {
-        "type": "volatility",
-        "multiplier": 4.425389145378759
+        "type": "trend",
+        "slope": 0.019214109444790156
       }
     ]
   },
@@ -913,8 +921,8 @@
     "series_idx": 94,
     "anomalies": [
       {
-        "type": "volatility",
-        "multiplier": 5.265847407485138
+        "type": "level_shift",
+        "magnitude": 21.041601048649348
       }
     ]
   },
@@ -922,8 +930,9 @@
     "series_idx": 95,
     "anomalies": [
       {
-        "type": "level_shift",
-        "magnitude": 21.683427158802758
+        "type": "point_anomaly",
+        "anomaly_idx": 727,
+        "magnitude": 10.003296010131683
       }
     ]
   },
@@ -931,8 +940,8 @@
     "series_idx": 96,
     "anomalies": [
       {
-        "type": "trend",
-        "slope": 0.04212042269268962
+        "type": "volatility",
+        "multiplier": 4.972952867336819
       }
     ]
   },
@@ -940,9 +949,8 @@
     "series_idx": 97,
     "anomalies": [
       {
-        "type": "point_anomaly",
-        "anomaly_idx": 386,
-        "magnitude": -8.378281336489097
+        "type": "level_shift",
+        "magnitude": 10.541572718871453
       }
     ]
   },
@@ -950,8 +958,8 @@
     "series_idx": 98,
     "anomalies": [
       {
-        "type": "trend",
-        "slope": -0.014167675983916342
+        "type": "volatility",
+        "multiplier": 5.482755906462303
       }
     ]
   },
@@ -960,7 +968,7 @@
     "anomalies": [
       {
         "type": "trend",
-        "slope": -0.04226543805670588
+        "slope": 0.020298247399822528
       }
     ]
   }
