@@ -1,0 +1,43 @@
+{
+    "data_generation": {
+        "num_points": 1000,
+        "num_series": 100,
+        "start_time": 0,
+        "end_time": 100,
+        "noise_level": 0.1
+    },
+    "base_signal": {
+        "frequency_min": 0.5,
+        "frequency_max": 2.0,
+        "amplitude_min": 0.5,
+        "amplitude_max": 1.5
+    },
+    "trend": {
+        "slope_min": -0.05,
+        "slope_max": 0.05
+    },
+    "volatility": {
+        "multiplier_min": 3.0,
+        "multiplier_max": 6.0,
+        "base_noise": 0.1
+    },
+    "point_anomaly": {
+        "margin_frac": 0.1,
+        "magnitude_min": 5,
+        "magnitude_max": 10
+    },
+    "level_shift": {
+        "magnitude_min": 15,
+        "magnitude_max": 50
+    },
+    "assignment": {
+        "max_anomalies_per_series": 2
+    },
+    "export": {
+        "output_dir": "output",
+        "format": "csv",
+        "data_filename": "timeseries_data",
+        "metadata_filename": "timeseries_metadata",
+        "include_time_axis": true
+    }
+}
