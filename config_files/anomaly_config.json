@@ -1,0 +1,19 @@
+{
+    "trend_detection": {
+        "p_threshold": 0.05,
+        "mse_threshold_factor": 1.5,
+        "poly_degree": 2
+    },
+    "volatility_detection": {
+        "threshold_percentile": 75,
+        "threshold_factor": 1.5
+    },
+    "point_anomaly_detection": {
+        "window_size": 50,
+        "z_threshold": 3.0
+    },
+    "dataset_level_detection": {
+        "z_threshold": 3.0
+    }
+}
+

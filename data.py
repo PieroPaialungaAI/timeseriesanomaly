@@ -57,7 +57,7 @@ class DataGenerator:
 
     def export_data(self, output_dir: str = None, format: str = None) -> None:
         export_cfg = self.config["export"]
-        output_dir = output_dir or export_cfg["output_dir"]
+        output_dir = output_dir or OUTPUT_DIR
         format = format or export_cfg["format"]
         export_fn = EXPORT_FUNCTIONS[format]
         export_fn(

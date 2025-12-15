@@ -28,25 +28,48 @@ def generate_base_signal(x: np.ndarray, noise_level: float, config: Dict) -> np.
 
 def add_trend(signal: np.ndarray, x: np.ndarray, config: Dict) -> Tuple[np.ndarray, Dict]:
     """
-    Add a single linear trend from start to end.
+    Add a polynomial trend (linear or higher degree) from start to end.
     
     Args:
         signal: Input signal array
         x: Time axis array
-        config: Trend config dict
+        config: Trend config dict with max_degree, magnitude_min, magnitude_max
     
     Returns:
         Signal with trend added, metadata dict
     """
     n = len(signal)
     
-    # Single slope from start to end
-    slope = np.random.uniform(config["slope_min"], config["slope_max"])
-    trend = slope * np.arange(n)
+    # Randomly choose degree (1 = linear, 2 = quadratic, 3 = cubic, etc.)
+    degree = np.random.randint(1, config["max_degree"] + 1)
+    
+    # Normalize x to [0, 1] range
+    x_norm = np.linspace(0, 1, n)
+    
+    # Total magnitude of trend at the end (relative to signal std)
+    signal_std = np.std(signal)
+    direction = np.random.choice([-1, 1])
+    magnitude = direction * np.random.uniform(config["magnitude_min"], config["magnitude_max"]) * signal_std
+    
+    # Generate polynomial trend
+    if degree == 1:
+        # Linear: goes from 0 to magnitude
+        trend = magnitude * x_norm
+        coefficients = [magnitude]
+    elif degree == 2:
+        # Quadratic: curved, reaches magnitude at end
+        trend = magnitude * (x_norm ** 2)
+        coefficients = [magnitude]
+    else:
+        # Cubic: S-curve-ish, reaches magnitude at end
+        trend = magnitude * (x_norm ** 3)
+        coefficients = [magnitude]
     
     metadata = {
         "type": "trend",
-        "slope": slope
+        "degree": degree,
+        "magnitude": magnitude,
+        "coefficients": coefficients
     }
     
     return signal + trend, metadata

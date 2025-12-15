@@ -13,8 +13,9 @@
         "amplitude_max": 1.5
     },
     "trend": {
-        "slope_min": -0.05,
-        "slope_max": 0.05
+        "max_degree": 3,
+        "magnitude_min": 5,
+        "magnitude_max": 15
     },
     "volatility": {
         "multiplier_min": 3.0,
